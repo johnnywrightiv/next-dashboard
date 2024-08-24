@@ -1,4 +1,6 @@
-import SideNav from "@/app/dashboard/sidenav";
+import SideNav from "./sidenav";
+
+export const experimental_ppr = true;
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
